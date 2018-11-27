@@ -14,7 +14,7 @@
 		{{ $product->short }}
 	</p>
 
-{!! $products->body !!}
+{!! $product->body !!}
 
 
 </div>

@@ -11,7 +11,7 @@
 	</h2>
 	@include('products.fragment.error')
 
-{!! Form::model($product, ['route' =>['products.update', $products->id], 'method'=>'PUT']) !!}
+{!! Form::model($product, ['route' =>['products.update', $product->id], 'method'=>'PUT']) !!}
 
 @include('products.fragment.form')	
 
